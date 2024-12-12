@@ -7,33 +7,33 @@ import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 // Car Images
-import Car1 from "../public/images/car copy.png";
-import Car2 from '../public/images/car (1).png';
-import Car3 from "../public/images/Car (2).png";
-import Car4 from "../public/images/suv (4).png";
-import Car5 from "../public/images/suv.png";
-import Car6 from "../public/images/car copy.png";
-import Car7 from "../public/images/car (1).png";
-import Car8 from "../public/images/suv (4).png";
-import Car9 from "../public/images/car (1).png";
-import Car10 from "../public/images/suv.png";
-import Car11 from "../public/images/car (1).png";
-import Car12 from "../public/images/suv.png";
+// import Car1 from "../public/images/car copy.png";
+// import Car2 from '../public/images/car (1).png';
+// import Car3 from "../public/images/Car (2).png";
+// import Car4 from "../public/images/suv (4).png";
+// import Car5 from "../public/images/suv.png";
+// import Car6 from "../public/images/car copy.png";
+// import Car7 from "../public/images/car (1).png";
+// import Car8 from "../public/images/suv (4).png";
+// import Car9 from "../public/images/car (1).png";
+// import Car10 from "../public/images/suv.png";
+// import Car11 from "../public/images/car (1).png";
+// import Car12 from "../public/images/suv.png";
 
 // Car Data
 const carData = [
-  { id: 1, name: "Koenigsegg", type: "Sport", image: Car1, fuel: "90L", transmission: "Manual", people: "2 People", price: "$99.00", duration: "day", heartColor: "pink" },
-  { id: 2, name: "Nissan GT-R", type: "Sport", image: Car2, fuel: "80L", transmission: "Manual", people: "2 People", price: "$80.00", duration: "day", off: "$100.00", heartColor: "black" },
-  { id: 3, name: "Rolls-Royce", type: "Sedan", image: Car3, fuel: "70L", transmission: "Manual", people: "4 People", price: "$96.00", duration: "day", heartColor: "pink" },
-  { id: 4, name: "Nissan GT-R", type: "Sport", image: Car4, fuel: "80L", transmission: "Manual", people: "2 People", price: "$80.00", duration: "day", off: "$100.00", heartColor: "black" },
-  { id: 5, name: "All New Rush", type: "ESUV", image: Car5, fuel: "70L", transmission: "Manual", people: "6 People", price: "$72.00", duration: "day", off: "$80.00", heartColor: "black" },
-  { id: 6, name: "CR-V", type: "SUV", image: Car6, fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "pink" },
-  { id: 7, name: "All New Terios", type: "SUV", image: Car7, fuel: "90L", transmission: "Manual", people: "6 People", price: "$74.00", duration: "day", heartColor: "black" },
-  { id: 8, name: "CR-V", type: "SUV", image: Car8, fuel: "80L", transmission: "Manual", people: "6 People", price: "$800.00", duration: "day", heartColor: "pink" },
-  { id: 9, name: "MG ZX Exclusice", type: "Manual", image: Car9, fuel: "70L", transmission: "Automatic", people: "4 People", price: "$76.00", duration: "day", off: "$80.00", heartColor: "pink" },
-  { id: 10, name: "New MG ZS", type: "SUV", image: Car10, fuel: "80L", transmission: "Manual", people: "5 People", price: "$80.00", duration: "day", heartColor: "black" },
-  { id: 11, name: "MG ZX Excite", type: "Hatchback", image: Car11, fuel: "90L", transmission: "Manual", people: "4 People", price: "$74.00", duration: "day", heartColor: "pink" },
-  { id: 12, name: "New MG ZS", type: "SUV", image: Car12, fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "black" }
+  { id: 1, name: "Koenigsegg", type: "Sport", image: "/images/car copy.png", fuel: "90L", transmission: "Manual", people: "2 People", price: "$99.00", duration: "day", heartColor: "pink" },
+  { id: 2, name: "Nissan GT-R", type: "Sport", image:"/images/car (1).png" , fuel: "80L", transmission: "Manual", people: "2 People", price: "$80.00", duration: "day", off: "$100.00", heartColor: "black" },
+  { id: 3, name: "Rolls-Royce", type: "Sedan", image: "/images/Car (2).png", fuel: "70L", transmission: "Manual", people: "4 People", price: "$96.00", duration: "day", heartColor: "pink" },
+  { id: 4, name: "Nissan GT-R", type: "Sport", image: "/images/suv (4).png", fuel: "80L", transmission: "Manual", people: "2 People", price: "$80.00", duration: "day", off: "$100.00", heartColor: "black" },
+  { id: 5, name: "All New Rush", type: "ESUV", image: "/images/suv.png", fuel: "70L", transmission: "Manual", people: "6 People", price: "$72.00", duration: "day", off: "$80.00", heartColor: "black" },
+  { id: 6, name: "CR-V", type: "SUV", image: "/images/car copy.png", fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "pink" },
+  { id: 7, name: "All New Terios", type: "SUV", image:"/images/car (1).png" , fuel: "90L", transmission: "Manual", people: "6 People", price: "$74.00", duration: "day", heartColor: "black" },
+  { id: 8, name: "CR-V", type: "SUV", image: "/images/suv (4).png" , fuel: "80L", transmission: "Manual", people: "6 People", price: "$800.00", duration: "day", heartColor: "pink" },
+  { id: 9, name: "MG ZX Exclusice", type: "Manual", image: "/images/car (1).png", fuel: "70L", transmission: "Automatic", people: "4 People", price: "$76.00", duration: "day", off: "$80.00", heartColor: "pink" },
+  { id: 10, name: "New MG ZS", type: "SUV", image: "/images/suv.png", fuel: "80L", transmission: "Manual", people: "5 People", price: "$80.00", duration: "day", heartColor: "black" },
+  { id: 11, name: "MG ZX Excite", type: "Hatchback", image:"/images/car (1).png" , fuel: "90L", transmission: "Manual", people: "4 People", price: "$74.00", duration: "day", heartColor: "pink" },
+  { id: 12, name: "New MG ZS", type: "SUV", image: "/images/suv.png", fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "black" }
 ];
 
 export default function CarShowRoom() {

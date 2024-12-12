@@ -1,6 +1,4 @@
 
-import ad1 from "./public/images/Ads 1.png";
-import ad2 from "./public/images/Ads 2.png";
 // import { Button } from "@/components/ui/button";
 import { BsArrowDownUp } from "react-icons/bs";
 import Image from "next/image";
@@ -14,15 +12,19 @@ export default function Screen() {
       
         <div>
            <Image
-           src={ad1}
+           src={"/images/Ads 1.png"}
            alt="ads 1"
+           width={850}
+           height={400}
            className="rounded-lg w-[90] h-[70]"
         />
         </div>
         <div>
         <Image
-           src={ad2}
+           src={"/images/Ads 2.png"}
            alt="ads 2"
+           width={850}
+           height={400}
            className="rounded-lg"
            />
            </div>

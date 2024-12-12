@@ -42,41 +42,31 @@ import rating from "@/app/public/images/rating.png"
     <p className="text-gray-500 font-semibold mt-1">Max. $100.00</p>
   </div>
 </div>
-
 {/* Second Section: Images */}
-<div className="pl-4"> {/* Right section for images */}
-  <div className="flex flex-col items-center justify-center space-y-4"> {/* Flex column layout for images */}
-
-    {/* Main car image */}
-    <div className="relative rounded-[5%] w-[300px]">
+<div className="pl-10">
+       {/* Main car image */}
+     
+  <div className="flex flex-col">
+    <div>
+    <div className="relative rounded-[5%] w-[300px] ">
       <Image src="/View.png" alt="view car" width={350} height={300} className="mt-5" />
     </div>
 
     {/* Smaller car images */}
-    <div className="flex space-x-4">
+    <div className="flex space-x-4 mt-2">
       {['car.png', 'carSeat.png', 'underCar.png'].map((img, idx) => (
         <div key={idx} className="rounded-[5%] w-[90px]">
           <Image src={`/${img}`} alt="small car image" width={100} height={100} />
+        </div> ))}
         </div>
-      ))}
-    </div>
-  </div>
 
-</div>
-<Image
-src= {rating}
-width={100}
-height={100}
-alt="review page"
-className="mt-5"
-/>
-</div>
-{/* Fourth Section: User Reviews */}
-<div className=""> {/* User review section with spacing from previous content */}
-<div className="bg-gray-100 p-6 rounded-lg shadow-md space-y-10"> {/* Gray background, padding, rounded corners */}
-  {/* Review Title */}
+    {/* Rating Section */}  
+ </div>
+  </div>
+{/* review page */}
+{/* User Reviews Section - Directly Below 2nd and 3rd images */}
+<div className="bg-gray-100 p-6 rounded-lg shadow-md mt-6 space-y-8">
   <h1 className="text-xl font-semibold text-gray-800">User Reviews</h1>
-  
   {/* Review 1 */}
   <div className="flex items-start space-x-4">
     <div className="w-12 h-12 bg-gray-300 rounded-full">
@@ -87,12 +77,12 @@ className="mt-5"
         <h3 className="font-medium text-gray-900">John Doe</h3>
         <div className="text-yellow-500">★★★★☆</div>
       </div>
-      <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod urna at magna varius, et fermentum elit congue. Ut eget nulla neque.</p>
+      <p className="text-gray-600 text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod urna at magna varius, et fermentum elit congue.</p>
     </div>
   </div>
 
   {/* Review 2 */}
-  <div className="flex items-start space-x-4">
+  <div className=" flex items-start space-x-4">
     <div className="w-12 h-12 bg-gray-300 rounded-full">
       <Image src="/reviewer2.png" alt="reviewer2" width={48} height={48} className="rounded-full" />
     </div>
@@ -103,9 +93,11 @@ className="mt-5"
       </div>
       <p className="text-gray-600 text-sm">Excellent product! The features were just as described, and I was able to set it up easily. Highly recommend it for anyone looking for quality.</p>
     </div>
+  {/* review closed*/}
   </div>
 </div>
 </div>
+</div>  {/* main-div*/}
         </>
           )
           }
