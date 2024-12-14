@@ -1,6 +1,5 @@
 import React from "react"
 import Image from "next/image"
-import rating from "@/app/public/images/rating.png"
  export default function Dashboard(){
     return(
         <>

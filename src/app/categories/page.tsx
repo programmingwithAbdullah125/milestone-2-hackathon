@@ -106,7 +106,7 @@ export default function Page() {
               ].map((car, index) => (
                 <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
                   <CardHeader>
-                    <CardTitle className="w-full flex items-center justify-between">
+                    <CardTitle className="w-full flex items-center justify-between">  
                       {car.title} <Image src={"/heart.png"} alt="" width={20} height={20} />
                     </CardTitle>
                     <CardDescription>{car.desc}</CardDescription>
