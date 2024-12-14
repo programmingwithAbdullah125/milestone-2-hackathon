@@ -51,21 +51,21 @@ export default function Page() {
   {/* PRICE Range */}
   <div className="mt-5">
     <h1 className="space-x-5 text-sm text-gray-600 mt-5">PRICE</h1>
-    <Image src="/priceRanger.png" alt="price ranger" width={180} height={20} className="mt-5 pl-1" />
+    <Image src="/images/priceRanger.png" alt="price ranger" width={180} height={20} className="mt-5 pl-1" />
     <p className="text-gray-500 font-semibold mt-1">Max. $100.00</p>
   </div>
 </div>
 
       <div className="sec w-full sm:w-[80%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
         <section className="w-full flex flex-col sm:flex-row items-center justify-center sm:justify-between ">
-          <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="w-[200px] md:w-[270px] lg:w-[582px]" />
-          <Image src={"/Switch.png"} alt="" width={60} height={60} className="w-[80px]" />
-          <Image src={"/Drop - Off.png"} alt="" width={582} height={132} className=' w-[200px] md:w-[270px] lg:w-[582px]' />
+          <Image src={"/images/Pick - Up.png"} alt="" width={582} height={132} className="w-[200px] md:w-[270px] lg:w-[582px]" />
+          <Image src={"/images/Switch.png"} alt="" width={60} height={60} className="w-[80px]" />
+          <Image src={"/images/Drop - Off.png"} alt="" width={582} height={132} className=' w-[200px] md:w-[270px] lg:w-[582px]' />
         </section>
         <section className="popular w-full flex flex-col gap-4">
           <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: 'Koenigsegg', image: 'images/car.png', desc: 'Sport' },
+              { title: 'Koenigsegg', image: '/images/car.png', desc: 'Sport' },
               { title: 'Nissan GT - R', image: '/images/car (1).png', desc: 'Luxury' },
               { title: 'Rolls-Royce', image: '/images/suv.png', desc: 'Sport' },
               { title: 'All New Rush', image: '/images/suv (4).png', desc: 'Luxury' },
@@ -77,14 +77,14 @@ export default function Page() {
               <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
                 <CardHeader>
                   <CardTitle className="w-full flex items-center justify-between">
-                    {car.title} <Image src={"/heart.png"} alt="" width={20} height={20} />
+                    {car.title} <Image src={"/images/heart.png"} alt="" width={20} height={20} />
                   </CardTitle>
                   <CardDescription>{car.desc}</CardDescription>
                 </CardHeader>
                 <CardContent className="w-full flex md:flex-col items-center justify-center gap-4">
                   <Image src={car.image} alt="" width={220} height={68} />
-                  <Image src={"/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
-                  <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
+                  <Image src={"/images/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
+                  <Image src={"/images/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
                 </CardContent>
                 <CardFooter className="w-full flex items-center justify-between">
                   <p>
@@ -107,14 +107,14 @@ export default function Page() {
                 <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
                   <CardHeader>
                     <CardTitle className="w-full flex items-center justify-between">  
-                      {car.title} <Image src={"/heart.png"} alt="" width={20} height={20} />
+                      {car.title} <Image src={"/images/heart.png"} alt="" width={20} height={20} />
                     </CardTitle>
                     <CardDescription>{car.desc}</CardDescription>
                   </CardHeader>
                   <CardContent className="w-full flex md:flex-col items-center justify-center gap-4">
                     <Image src={car.image} alt="" width={220} height={68} />
-                    <Image src={"/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
-                    <Image src={"/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
+                    <Image src={"/images/Spesification.png"} alt="" width={256} height={24} className='hidden md:flex' />
+                    <Image src={"/images/Spesification (1).png"} alt="" width={256} height={24} className='md:hidden' />
                   </CardContent>
                   <CardFooter className="w-full flex items-center justify-between">
                     <p>
