@@ -28,11 +28,11 @@ const carData = [
   { id: 4, name: "Nissan GT-R", type: "Sport", image: "/images/suv (4).png", fuel: "80L", transmission: "Manual", people: "2 People", price: "$80.00", duration: "day", off: "$100.00", heartColor: "black" },
   { id: 5, name: "All New Rush", type: "ESUV", image: "/images/suv.png", fuel: "70L", transmission: "Manual", people: "6 People", price: "$72.00", duration: "day", off: "$80.00", heartColor: "black" },
   { id: 6, name: "CR-V", type: "SUV", image: "/images/car copy.png", fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "pink" },
-  { id: 7, name: "All New Terios", type: "SUV", image:"/images/car1.png" , fuel: "90L", transmission: "Manual", people: "6 People", price: "$74.00", duration: "day", heartColor: "black" },
+  { id: 7, name: "All New Terios", type: "SUV", image:"/images/car2.png" , fuel: "90L", transmission: "Manual", people: "6 People", price: "$74.00", duration: "day", heartColor: "black" },
   { id: 8, name: "CR-V", type: "SUV", image: "/images/suv (4).png" , fuel: "80L", transmission: "Manual", people: "6 People", price: "$800.00", duration: "day", heartColor: "pink" },
   { id: 9, name: "MG ZX Exclusice", type: "Manual", image: "/images/car2.png", fuel: "70L", transmission: "Automatic", people: "4 People", price: "$76.00", duration: "day", off: "$80.00", heartColor: "pink" },
   { id: 10, name: "New MG ZS", type: "SUV", image: "/images/suv.png", fuel: "80L", transmission: "Manual", people: "5 People", price: "$80.00", duration: "day", heartColor: "black" },
-  { id: 11, name: "MG ZX Excite", type: "Hatchback", image:"/images/car1.png" , fuel: "90L", transmission: "Manual", people: "4 People", price: "$74.00", duration: "day", heartColor: "pink" },
+  { id: 11, name: "MG ZX Excite", type: "Hatchback", image:"/images/car2.png" , fuel: "90L", transmission: "Manual", people: "4 People", price: "$74.00", duration: "day", heartColor: "pink" },
   { id: 12, name: "New MG ZS", type: "SUV", image: "/images/suv.png", fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "black" }
 ];
 
