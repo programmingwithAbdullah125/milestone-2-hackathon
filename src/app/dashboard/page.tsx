@@ -37,7 +37,7 @@ import Image from "next/image"
   {/* PRICE Range */}
   <div className="mt-5">
     <h1 className="space-x-5 text-sm text-gray-600 mt-5">PRICE</h1>
-    <Image src="/priceRanger.png" alt="price ranger" width={180} height={20} className="mt-5 pl-1" />
+    <Image src="/images/priceRanger.png" alt="price ranger" width={180} height={20} className="mt-5 pl-1" />
     <p className="text-gray-500 font-semibold mt-1">Max. $100.00</p>
   </div>
 </div>
@@ -48,12 +48,12 @@ import Image from "next/image"
   <div className="flex flex-col">
     <div>
     <div className="relative rounded-[5%] w-[300px] ">
-      <Image src="/View.png" alt="view car" width={350} height={300} className="mt-5" />
+      <Image src="/images/View.png" alt="view car" width={350} height={300} className="mt-5" />
     </div>
 
     {/* Smaller car images */}
     <div className="flex space-x-4 mt-2">
-      {['car.png', 'carSeat.png', 'underCar.png'].map((img, idx) => (
+      {['/images/car.png', '/images/carSeat.png', '/images/underCar.png'].map((img, idx) => (
         <div key={idx} className="rounded-[5%] w-[90px]">
           <Image src={`/${img}`} alt="small car image" width={100} height={100} />
         </div> ))}
@@ -69,7 +69,7 @@ import Image from "next/image"
   {/* Review 1 */}
   <div className="flex items-start space-x-4">
     <div className="w-12 h-12 bg-gray-300 rounded-full">
-      <Image src="/reviewer1.png" alt="Reviewer" width={48} height={48} className="rounded-full" />
+      <Image src="/images/reviewer1.png" alt="Reviewer" width={48} height={48} className="rounded-full" />
     </div>
     <div className="space-y-2">
       <div className="flex items-center space-x-2">
@@ -83,7 +83,7 @@ import Image from "next/image"
   {/* Review 2 */}
   <div className=" flex items-start space-x-4">
     <div className="w-12 h-12 bg-gray-300 rounded-full">
-      <Image src="/reviewer2.png" alt="reviewer2" width={48} height={48} className="rounded-full" />
+      <Image src="/images/reviewer2.png" alt="reviewer2" width={48} height={48} className="rounded-full" />
     </div>
     <div className="space-y-2">
       <div className="flex items-center space-x-2">
