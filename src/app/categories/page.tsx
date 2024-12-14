@@ -65,14 +65,14 @@ export default function Page() {
         <section className="popular w-full flex flex-col gap-4">
           <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { title: 'Koenigsegg', image: '/car.png', desc: 'Sport' },
-              { title: 'Nissan GT - R', image: '/car (1).png', desc: 'Luxury' },
-              { title: 'Rolls-Royce', image: '/suv.png', desc: 'Sport' },
-              { title: 'All New Rush', image: '/suv (4).png', desc: 'Luxury' },
-              { title: 'CR - V', image: '/suv (4).png', desc: 'Luxury' },
-              { title: 'ALLNEW TERIOS', image: '/suv.png', desc: 'SUV' },
-              { title: 'MGZX Exclusive', image: '/suv (4).png', desc: 'Luxury' },
-              { title: 'NEW MGZS', image: '/suv.png', desc: 'SUV' },
+              { title: 'Koenigsegg', image: 'images/car.png', desc: 'Sport' },
+              { title: 'Nissan GT - R', image: '/images/car (1).png', desc: 'Luxury' },
+              { title: 'Rolls-Royce', image: '/images/suv.png', desc: 'Sport' },
+              { title: 'All New Rush', image: '/images/suv (4).png', desc: 'Luxury' },
+              { title: 'CR - V', image: '/images/suv (4).png', desc: 'Luxury' },
+              { title: 'ALLNEW TERIOS', image: '/images/suv.png', desc: 'SUV' },
+              { title: 'MGZX Exclusive', image: '/images/suv (4).png', desc: 'Luxury' },
+              { title: 'NEW MGZS', image: '/images/suv.png', desc: 'SUV' },
             ].map((car, index) => (
               <Card key={index} className="w-full max-w-[304px] mx-auto h-auto flex flex-col justify-between">
                 <CardHeader>
