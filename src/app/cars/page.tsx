@@ -104,7 +104,7 @@ export default function CarShowRoom() {
               </p>
               <Link href= "/dashboard">
               <button className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700">
-                <a href="/components/dashboard">Rent Now</a>
+                <a href="/dashboard">Rent Now</a>
                 </button>
                 
                 </Link>
