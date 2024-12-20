@@ -1,5 +1,3 @@
-
-// import { Button } from "@/components/ui/button";
 import { BsArrowDownUp } from "react-icons/bs";
 import Image from "next/image";
 import CarShowRoom from "./cars/page";

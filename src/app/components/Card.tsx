@@ -20,4 +20,4 @@ const FooterCard = (data: { input: boolean; title: string; links: string[]; bold
     )
 }
 
-export default FooterCard
+export default FooterCard;

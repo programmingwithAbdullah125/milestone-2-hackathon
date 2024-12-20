@@ -10,9 +10,39 @@ import Sidebar from "../sidebar";
 
 const carData = [
   
-{ id: 11, name: "MG ZX Excite", type: "Hatchback", image: "/images/car11.png", fuel: "90L", transmission: "Manual", people: "4 People", price: "$74.00", duration: "day", heartColor: "pink" },
-   { id: 12, name: "New MG ZS", type: "SUV", image: "/images/car12.png", fuel: "80L", transmission: "Manual", people: "6 People", price: "$80.00", duration: "day", heartColor: "black" },
-   { id: 13, name: "BMW X6", type: "SUV", image: "/images/car10.png", fuel: "70L", transmission: "Manual", people: "5 People", price: "$100.00", duration: "day", heartColor: "pink" },
+{ id: 11,
+  name: "MG ZX Excite",
+  type: "Hatchback", 
+  image: "/images/suv.png", 
+  fuel: "90L", 
+  transmission: "Manual", 
+  people: "4 People", 
+  price: "$74.00", 
+  duration: "day", 
+  heartColor: "pink"
+ },
+   {
+     id: 12, 
+     name: "New MG ZS", 
+     type: "SUV", 
+     image: "/images/car3 Admin.png", 
+     fuel: "80L", 
+     transmission: "Manual", 
+     people: "6 People", 
+     price: "$80.00", 
+     duration: "day", 
+     heartColor: "black"
+     },
+   { id: 13, 
+    name: "BMW X6", 
+    type: "SUV", 
+    image: "/images/car4 Admin.png", 
+    fuel: "70L", 
+    transmission: "Manual", 
+    people: "5 People", 
+    price: "$100.00", 
+    duration: "day", 
+    heartColor: "pink" },
 ]
 
 const carData2 = [
@@ -21,7 +51,7 @@ const carData2 = [
     id: 8,
     name: "CR-V",
     type: "SUV",
-    image: "/images/car8.png",
+    image: "/images/car3 Admin.png",
     fuel: "80L",
     transmission: "Manual",
     people: "6 People",
@@ -33,7 +63,7 @@ const carData2 = [
     id: 9,
     name: "MG ZX Exclusice",
     type: "Manual",
-    image: "/images/car9.png",
+    image: "/images/car4 Admin.png",
     fuel: "70L",
     transmission: "Automatic",
     people: "4 People",
@@ -42,7 +72,17 @@ const carData2 = [
     off: "$80.00",
     heartColor: "pink",
   },
-   { id: 10, name: "New MG ZS", type: "SUN", image: "/images/car10.png", fuel: "80L", transmission: "Manual", people: "5 People", price: "$80.00", duration: "day", heartColor: "black" },
+   { id: 10,
+     name: "New MG ZS",
+     type: "SUN",
+     image: "/images/car2 Admin.png",
+     fuel: "80L",
+     transmission: "Manual", 
+     people: "5 People", 
+     price: "$80.00", 
+     duration: "day", 
+     heartColor: "black" 
+    },
   
 ]
 export default function CarRent() {
