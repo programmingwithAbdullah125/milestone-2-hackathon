@@ -90,7 +90,7 @@ export default function Page() {
                   <p>
                     $99.00/<span className="text-gray-500">day</span>
                   </p>
-                  <Link href={'/details'}>
+                  <Link href={'/dashboard'}>
                   <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
                 </CardFooter>
               </Card>
@@ -120,7 +120,9 @@ export default function Page() {
                     <p>
                       $99.00/<span className="text-gray-500">day</span>
                     </p>
-                    <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+                    <button className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+                  <a href="/dashboard">Rent Now</a>
+                </button>
                   </CardFooter>
                 </Card>
               ))}
